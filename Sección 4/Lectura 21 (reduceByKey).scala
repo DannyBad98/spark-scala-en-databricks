@@ -14,6 +14,7 @@ val rdd = sc.parallelize(Seq(
 
 rdd.collect
 
+// Reduce por llave los valores del rdd aplicando una suma
 val rddReducido = rdd.reduceByKey(_ + _)
 
 rddReducido.collect
