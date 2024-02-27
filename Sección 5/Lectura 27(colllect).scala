@@ -1,4 +1,4 @@
-// Función collect
+// Función collect.
 
 val sc = spark.sparkContext
 
