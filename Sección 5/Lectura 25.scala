@@ -13,4 +13,5 @@ rdd.reduce(_ + _)
 
 val rddP = sc.parallelize(1 to 3)
 
+// En este ejemplo multiplicaremos todos los elementos del rdd dando como resultado 6
 rddP.reduce(_ * _)
