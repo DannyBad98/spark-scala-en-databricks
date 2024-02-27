@@ -1,4 +1,4 @@
-// Función count
+// Función count. Cuenta el numero de elementos de un rdd
 
 val sc = spark.sparkContext
 
