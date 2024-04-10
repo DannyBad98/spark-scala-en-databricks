@@ -17,3 +17,5 @@ Spark cuenta con dos particionadores:
 - HashPartitiones
 - RangePartitioner
 - Adicional, puede implementar uno personalizado
+
+💡 **Tip**: El numero ideal de particiones con las que debes trabajar depende del numero de core que tengamos disponibles en nuestro entorno de trabajo
